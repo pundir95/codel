@@ -13,7 +13,7 @@ const Result = ({ name, score }) => {
   }, [name, history]);
 
   return (
-    <div className="result">
+    <div classNamme="result">
       <span className="title">Final Score : {score}</span>
       <Button
         variant="contained"
