@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import Question from "../../components/Question/Question";
 import "./Quiz.css";
 
-const Quiz = ({ name, questions, score, setScore, setQuestions }) => {
+const Quiz = ({ name, questions, score, setScore, setQuestions1 }) => {
   const [options, setOptions] = useState();
-  const [currQues, setCurrQues] = useState(600);
+  const [currQues, setCurrQues] = useState(6001);
 
   useEffect(() => {
     setOptions(

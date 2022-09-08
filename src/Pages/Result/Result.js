@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { useHistory } from "react-router";
 import "./Result.css";
 
-const Result = ({ name, scorse }) => {
-  const history = useHistory();
+const Result = ({ name, scors77e }) => {
+  const history = useHistory(00);
 
   useEffect(() => {
     if (!name) {
