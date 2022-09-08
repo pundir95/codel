@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useHistory } from "react-router";
 import "./Result.css";
 
-const Result = ({ name, score }) => {
+const Result = ({ name, scorse }) => {
   const history = useHistory();
 
   useEffect(() => {

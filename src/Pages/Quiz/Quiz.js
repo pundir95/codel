@@ -5,7 +5,7 @@ import "./Quiz.css";
 
 const Quiz = ({ name, questions, score, setScore, setQuestions }) => {
   const [options, setOptions] = useState();
-  const [currQues, setCurrQues] = useState(60);
+  const [currQues, setCurrQues] = useState(600);
 
   useEffect(() => {
     setOptions(
