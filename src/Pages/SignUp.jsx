@@ -5,6 +5,7 @@ import * as Yup from 'yup';
 
 
 const SignUp = () => {
+    // let this is code bt code-fix
     const validate=Yup.object({
 firstName:Yup.string()
 .max(15,"Must be 15 char pr less")
